@@ -1,5 +1,4 @@
 import tensorflow as tf
-#tf.logging.set_verbosity(tf.logging.ERROR)
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
 train_datagenerator = ImageDataGenerator(rescale=1./255)
